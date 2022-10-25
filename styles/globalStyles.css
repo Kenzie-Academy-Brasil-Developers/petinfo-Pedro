@@ -1,26 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 :root {
-  --brand100: "hsl(230, 57%, 50%)";
-  --brand200: "hsl(230, 68%, 54%)";
-  --gray100: "hsl(210, 11%, 15%)";
-  --gray200: "hsl(210, 10%, 23%)";
-  --gray300: "hsl(210, 9%, 31%)";
-  --gray400: "hsl(210, 7%, 56%)";
-  --gray500: "hsl(210, 11%, 71%)";
-  --gray600: "hsl(210, 16%, 93%)";
-  --gray700: "hsl(210, 17%, 95%)";
-  --gray800: "hsl(210, 17%, 98%)";
-  --gray900: "hsl(200, 100%, 99%)";
-  --alert100: "hsl(349, 57%, 50%)";
-  --alert200: "hsl(349, 69%, 55%)";
-  --sucess100: "hsl(162, 88%, 26%)";
+  --brand100: #364FC7;
+  --brand200: #3B56D9;
+  --gray100: #212529;
+  --gray200: #343A40;
+  --gray300: #495057;
+  --gray400: #868E96;
+  --gray500: #ADB5BD;
+  --gray600: #E9ECEF;
+  --gray700: #F1F3F5;
+  --gray800: #F8F9FA;
+  --gray900: #FCFEFF;
+  --alert100: #C73650;
+  --alert200: #DB3C58;
+  --success100: #087F5B;
+  --modal-background: rgba(30, 30, 30, 0.5);
+
+  --font-size-1: 2rem;
+  --font-size-2: 1.5rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1.125rem;
+  --font-size-5: 1rem;
+  --font-size-6: 0.875rem;
+  --font-size-7: 0.75rem;
+
+  --font-family-default: 'Inter', sans-serif;
+
+  --radius-1: 0.25rem;
+  --radius-2: 0.5rem;
+  --radius-3: 0.75rem;
+  --radius-4: 1rem;
+  --radius-rounded: 50%;
 }
 
 body {
-  font-family: "Inter, sans-serif";
+  font-family: var(--font-family-default);
+}
+
+.container {
+  width: 100%;
+  max-width: 50rem;  
+  margin: 0 auto;
+}
+
+.spinner {
+  animation: spinner 1s infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
 }

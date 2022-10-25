@@ -1,0 +1,128 @@
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7; ;
+}
+
+.btn-form-1 {
+  height: 2.375rem;
+  width: 100%;
+  padding: 0 1rem;
+
+  border: 1px solid var(--brand100);
+  background-color: var(--brand100);
+  border-radius: var(--radius-1);
+  
+  color: var(--gray900);
+  font-size: var(--font-size-5);
+  font-weight: 500;
+}
+
+.btn-form-2 {
+  height: 2.375rem;
+  width: 100%;
+  padding: 0 1rem;
+
+  border: 1px solid var(--gray600);
+  background-color: transparent;
+  border-radius: var(--radius-1);
+  
+  color: var(--gray100);
+  font-size: var(--font-size-5);
+  font-weight: 500;
+}
+
+.btn-register-header {
+  border: 1px solid var(--gray600);
+  border-radius: var(--radius-1);
+  background-color: transparent;
+  padding: 0.25rem;
+
+  color: var(--gray100);
+  font-size: var(--font-size-5);
+  font-weight: 500;
+}
+
+.create-post {
+
+  height: 2.375rem;
+  background-color: var(--brand100);
+  padding: 0 1rem;
+  border: none;
+  border-radius: var(--radius-1);
+
+  color: var(--gray900);
+  font-size: var(--font-size-5);
+  font-weight: 500; 
+}
+
+.delete-post {
+  height: 2.375rem;
+  background-color: var(--alert100);
+  padding: 0 1rem;
+  border: none;
+  border-radius: var(--radius-1);
+
+  color: var(--gray900);
+  font-size: var(--font-size-5);
+  font-weight: 500; 
+}
+
+.close-modal-post {
+  height: 2.375rem;
+  background-color: var(--gray600);
+  padding: 0 1rem;
+  border: none;
+  border-radius: var(--radius-1);
+
+  color: var(--gray400);
+  font-size: var(--font-size-5);
+  font-weight: 500; 
+}
+
+.btn-card {
+  padding: 0.25rem;
+  background-color: transparent;
+  border: 1px solid var(--gray600);
+
+  font-size: var(--font-size-6);
+  font-weight: 500;
+  color: var(--gray100);
+}
+
+.access-post {
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+  color: var(--brand100);
+
+  font-size: var(--font-size-5);
+  font-weight: 500;
+}
+
+.access-post:hover {
+  text-decoration: underline;
+}
+
+.btn-close-modal {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--gray600);
+
+  border: none;
+  border-radius: var(--radius-1);
+}
+
+.btn-disabled {
+  background-color: var(--gray600);
+  color: var(--gray400);
+  cursor: default;
+  border: none;
+}
+
+.btn-disabled:hover {
+  opacity: 1;
+  text-decoration: none;  
+}

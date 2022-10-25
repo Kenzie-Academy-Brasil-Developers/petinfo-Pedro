@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/globalStyles.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/colors.css">
+  <link rel="stylesheet" href="./styles/images.css">
+  <link rel="stylesheet" href="./styles/input.css">
+  <link rel="stylesheet" href="./styles/button.css">
+  <link rel="stylesheet" href="./styles/toltip.css">
+  <link rel="stylesheet" href="./pages/login/index.css">
+  <title>Petinfo - Login</title>
+</head>
+
+<body>
+  <div class="container page-content">
+
+    <aside>
+      <h1 class="title-1 gray-1">
+        Petinfo
+      </h1>
+      <h2 class="title-1 gray-1">
+        <span class="title-1 brand-1">Amor</span> e <span class="title-1 brand-1">carinho</span> por meio do conhecimento
+      </h2>
+      <p class="text-3 gray-3">
+        Todas as informações para melhorar a vida do seu pet em um só lugar
+      </p>
+      <div class="pet-wrapper-3">
+        <div class="pet-wrapper-2">
+          <div class="pet-wrapper-1">
+            <div class="img-pet-1">
+              <img src="./assets/img/pet5.png" alt="Pet">
+
+            </div>
+            <div class="img-pet-1">
+              <img src="./assets/img/pet6.png" alt="Pet">
+
+            </div>
+          </div>
+          <div class="img-pet-2">
+            <img src="./assets/img/pet7.png" alt="Pet">
+
+          </div>
+        </div>
+        <div class="img-pet-3">
+          <img src="./assets/img/pet8.png" alt="Pet">
+
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <h2 class="title-3 gray-1">
+        Login
+
+      </h2>
+      <form id="login-form">
+        <div>
+          <label class="text-2 gray-1" for="email">
+            E-mail
+
+          </label>
+          <input class="input-form" id="email" name="email" type="email" placeholder="Digite seu e-mail aqui..." required="true">
+
+        </div>
+        <div>
+
+          <label class="text-2 gray-1" for="password">
+            Senha
+
+          </label>
+          <input class="input-form" id="password" name="password" type="password" placeholder="Digite sua senha aqui..." required="true">
+          <span id="wrong-password-span" class="text-4 alert-1 transparent">
+            E-mail e/ou senha incorretos
+
+          </span>
+        </div>
+
+        <button disabled="true" id="btn-access" class="btn-form-1 btn-disabled" type="submit">
+          Acessar
+
+        </button>        
+      </form>
+      <section>
+
+        <h4>
+          Ainda não possui conta?
+        </h4>
+
+        <p>
+          Clicando no botão abaixo, você pode se cadastrar rapidamente
+        </p>
+
+        <a href="./pages/register/index.html">
+          <button class="btn-form-2">
+            Cadastrar
+
+          </button>
+        </a>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="./pages/login/index.js"></script>
+  
+</body>
+</html>
